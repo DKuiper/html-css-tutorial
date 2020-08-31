@@ -66,7 +66,7 @@ nav li a{
     color: #4b4b4b;
 }
 nav li a.join{
-    color: rgb(109, 1, 114);
+    color: #6d0172;
 }
 main{
     max-width: 100%;
@@ -77,7 +77,7 @@ main{
     margin-bottom: 40px;
 }
 article h2{
-    color: #ff0000;
+    color: #4f884f;
     font-size: 48px;
 }
 article p{
@@ -133,7 +133,6 @@ form input{
     text-align: center;
     width: 100%;
     
-    
 }
 footer{
     background: rgb(79, 136, 79);
@@ -162,6 +161,7 @@ form input:valid{
 article p::first-line{
     font-weight: bold;
     font-size: 1.2em;
+    color: #6d0172;
 }
 section.join p::first-letter{
     font-size: 1.5em;
@@ -170,6 +170,10 @@ p::selection{
     background-color:rgb(79, 136, 79);
     color: white;
 } 
+.bij{
+    width: 100%;
+    height: 100%;
+}
 
 
 /* responsive styles */
